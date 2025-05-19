@@ -1,0 +1,34 @@
+/* Center the content */
+div {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the paragraph */
+p {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Style the headings */
+h1 {
+  font-size: 1.25rem;
+  color: #444;
+  margin: 20px 0;
+}
+
+/* Style the links */
+a {
+  margin-left: 10px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Add hover effect to links */
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}

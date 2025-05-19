@@ -1,0 +1,30 @@
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.nav nav a:hover {
+  background-color: #e2e6ea;
+}
+
+
+.nav nav .active {
+  color: #fff;
+  background-color: #007bff;
+}
